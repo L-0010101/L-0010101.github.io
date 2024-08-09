@@ -51,6 +51,11 @@ header h3{
 nav a{
     font-size: large;
 }
+nav a:hover{
+    color: pink;
+    font-size: 110%;
+    transition: .6s;
+}
 footer img{
     width: 40px;
     height: 40px;
@@ -66,6 +71,10 @@ footer{
 footer a {
     text-align: center;
     margin: 20px;
+}
+footer a:hover{
+    transform: scale(1.05);
+    transition: .3s;
 }
 footer p{
     font-size: large;
