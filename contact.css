@@ -82,6 +82,12 @@ footer p{
 footer br{
     font-size: 300px;
 }
-.text {
+.email {
     font-size: 20px;
+    text-decoration: underline;
+}
+.email:hover{
+    color: pink;
+    font-size: 120%;
+    transition: .6s;
 }
