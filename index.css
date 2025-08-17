@@ -71,3 +71,6 @@ main section{
 main h2{
    font-size: 30px;
 }
+main section:hover{
+    background: rgba(231, 176, 186, 0.295);
+}
