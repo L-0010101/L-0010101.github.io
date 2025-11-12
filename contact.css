@@ -1,7 +1,23 @@
 body{
-    color: antiquewhite;
+    color: whitesmoke;
     background-color: black;
     font-family: Arial, Helvetica, sans-serif
+}
+body::before{
+    content: "";
+    position: fixed;
+    inset: 0;
+    background: 
+        linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.3)),
+        url("./img/BackgroundImage.jpg") center/cover no-repeat, 
+        #222;
+    filter: blur(5px);
+    left: calc(-10px);
+    right: calc(-10px);
+    top: calc(-10px);
+    width: calc(100% + 20px);
+    height: calc(100% + 20px);
+    z-index: -1;
 }
 ul{
     display: flex;
@@ -10,26 +26,18 @@ ul{
     padding: 16px;
 }
 a{
-    color: antiquewhite;
+    color: whitesmoke;
     text-decoration: none;
 }
 header{
     justify-content: center;
     display: inline;
 }
-header img{
-    position: relative;
-    margin-left: 10px;
-    margin-top: 10px;
-    top: 20px;
-    width: 50px;
-    height: 50px;
-}
 header a{
     align-items: center;
 }
 header h1{
-    color: pink;
+    color: rgb(173, 125, 204);
     text-align: center;
     font-family: 'Courier New', Courier, monospace;
     font-size: 50px;
@@ -52,9 +60,9 @@ nav a{
     font-size: large;
 }
 nav a:hover{
-    color: pink;
+    color: rgb(173, 125, 204);
     font-size: 110%;
-    transition: .6s;
+    transition: .3s;
 }
 footer img{
     width: 40px;
@@ -87,16 +95,7 @@ footer br{
     text-decoration: underline;
 }
 .email:hover{
-    color: pink;
-    font-size: 120%;
-    transition: .6s;
-}
-header img:hover{
-    position: relative;
-    margin-left: 10px;
-    margin-top: 10px;
-    top: 20px;
-    width: 52px;
-    height: 52px;
+    color: rgb(173, 125, 204);
+    font-size: 130%;
     transition: .3s;
 }

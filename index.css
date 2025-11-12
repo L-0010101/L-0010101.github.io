@@ -1,8 +1,24 @@
 body{
-    color: antiquewhite;
-    background-color: black;
+    color: whitesmoke;
     font-family: Arial, Helvetica, sans-serif
 }
+body::before{
+    content: "";
+    position: fixed;
+    inset: 0;
+    background: 
+        linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.3)),
+        url("./img/BackgroundImage.jpg") center/cover no-repeat, 
+        #222;
+    filter: blur(5px);
+    left: calc(-10px);
+    right: calc(-10px);
+    top: calc(-10px);
+    width: calc(100% + 20px);
+    height: calc(100% + 20px);
+    z-index: -1;
+}
+
 ul{
     display: flex;
     justify-content: space-between;
@@ -10,21 +26,21 @@ ul{
     padding: 16px;
 }
 a{
-    color: antiquewhite;
+    color: whitesmoke;
     text-decoration: none;
 }
 header img{
     width: 150px;
     height: 150px;
     border-radius: 50%;
-    border: 5px solid pink;
+    border: 5px solid rgb(173, 125, 204);
 }
 .center{
     text-align: center;
     align-items: center;
 }
 h1{
-    color: pink;
+    color: rgb(173, 125, 204);
     text-align: center;
     font-family: 'Courier New', Courier, monospace;
     font-size: 50px;
@@ -55,23 +71,23 @@ footer a:hover{
     padding: 0px 50px;
 }
 nav a:hover{
-    color: pink;
+    color: rgb(173, 125, 204);
     font-size: 110%;
-    transition: .6s;
+    transition: .3s;
 }
 nav a{
     font-size: large;
 }
 main section{
-    border: 2px solid pink;
+    border: 2px solid rgb(173, 125, 204);
     border-radius: 10px;
     padding: 0px;
-    background: rgba(192, 142, 151, 0.295);
+    background: rgba(114, 75, 114, 0.295);
 }
 main h2{
    font-size: 30px;
 }
 main section:hover{
-    background: rgba(231, 176, 186, 0.295);
+    background: rgba(104, 83, 119, 0.295);
     transition: 0.2s;
 }
