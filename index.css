@@ -91,3 +91,13 @@ main section:hover{
     background: rgba(104, 83, 119, 0.295);
     transition: 0.2s;
 }
+.NormalList{
+    list-style-type: disc;
+    list-style-position: inside;
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+}
+.CursandoLi{
+    list-style-type: circle;
+}
