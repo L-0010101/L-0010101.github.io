@@ -25,6 +25,7 @@ body::before{
 .center{
     text-align: center;
     align-items: center;
+    margin: 0;
 }
 ul{
     display: flex;
@@ -81,4 +82,18 @@ img{
     border-radius: 10px;
     display: block;
     margin: auto;
+}
+.NormalList{
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+}
+.TitleLi{
+    font-size: 30px;
+}
+.MarginTop{
+    font-size: 30px;
+    margin-top: 40px;
 }
