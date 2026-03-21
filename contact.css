@@ -37,7 +37,7 @@ header a{
     align-items: center;
 }
 header h1{
-    color: rgb(173, 125, 204);
+    color: rgb(204, 125, 125);
     text-align: center;
     font-family: 'Courier New', Courier, monospace;
     font-size: 50px;
@@ -60,7 +60,7 @@ nav a{
     font-size: large;
 }
 nav a:hover{
-    color: rgb(173, 125, 204);
+    color: rgb(204, 125, 125);
     font-size: 110%;
     transition: .3s;
 }
@@ -95,7 +95,7 @@ footer br{
     text-decoration: underline;
 }
 .email:hover{
-    color: rgb(173, 125, 204);
+    color: rgb(204, 125, 125);
     font-size: 130%;
     transition: .3s;
 }

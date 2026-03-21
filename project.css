@@ -9,7 +9,7 @@ body::before{
     inset: 0;
     background: 
         linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.3)),
-        url("./img/BackgroundImage.jpg") center/cover no-repeat, 
+        url("./img/BackgroundImage2.jpg") center/cover no-repeat, 
         #222;
     filter: blur(5px);
     left: calc(-10px);
@@ -61,7 +61,7 @@ footer{
     justify-content: center;
 }
 nav a:hover{
-    color: rgb(173, 125, 204);
+    color: rgb(204, 125, 125);
     font-size: 110%;
     transition: .3s;
 }
@@ -71,7 +71,7 @@ nav a{
 header h1{
     text-align: center;
     font-family: 'Courier New', Courier, monospace;
-    color: rgb(173, 125, 204);
+    color: rgb(204, 125, 125);
     font-size: 50px;
     font-weight: 100;
 }

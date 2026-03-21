@@ -8,7 +8,7 @@ body::before{
     inset: 0;
     background: 
         linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.3)),
-        url("./img/BackgroundImage.jpg") center/cover no-repeat, 
+        url("./img/BackgroundImage2.jpg") center/cover no-repeat, 
         #222;
     filter: blur(5px);
     left: calc(-10px);
@@ -33,14 +33,14 @@ header img{
     width: 150px;
     height: 150px;
     border-radius: 50%;
-    border: 5px solid rgb(173, 125, 204);
+    border: 5px solid rgb(204, 125, 125);
 }
 .center{
     text-align: center;
     align-items: center;
 }
 h1{
-    color: rgb(173, 125, 204);
+    color: rgb(204, 125, 125);
     text-align: center;
     font-family: 'Courier New', Courier, monospace;
     font-size: 50px;
@@ -71,7 +71,7 @@ footer a:hover{
     padding: 0px 50px;
 }
 nav a:hover{
-    color: rgb(173, 125, 204);
+    color: rgb(204, 125, 125);
     font-size: 110%;
     transition: .3s;
 }
@@ -79,16 +79,16 @@ nav a{
     font-size: large;
 }
 main section{
-    border: 2px solid rgb(173, 125, 204);
+    border: 2px solid rgb(204, 125, 125);
     border-radius: 10px;
     padding: 0px;
-    background: rgba(114, 75, 114, 0.295);
+    background: rgba(204, 125, 125, 0.150);
 }
 main h2{
    font-size: 30px;
 }
 main section:hover{
-    background: rgba(104, 83, 119, 0.295);
+    background: rgba(204, 125, 125, 0.2);
     transition: 0.2s;
 }
 .NormalList{
